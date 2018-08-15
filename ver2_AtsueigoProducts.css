@@ -18,14 +18,14 @@ html, body {
     height: 100%;
 }
 
-a {
+/*a {
     color: #000;
     -webkit-font-smoothing: antialiased;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-}
+}*/
 
 a:link, a:visited {
     text-decoration: none;
