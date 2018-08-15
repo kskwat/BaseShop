@@ -176,7 +176,7 @@ body.shop {
     -webkit-text-size-adjust: none;
 }
 
-body.shop .wrapper{
+body.shop {
     margin: 0 auto 60px;
     padding: 0 10px;
     width: 960px;
