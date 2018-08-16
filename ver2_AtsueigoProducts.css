@@ -1381,7 +1381,6 @@ section.tmpBox{
 
 #mainHeader h1 {
     /*height: 60px;*/
-    position: absolute;
 }
 
 #mainHeader h1 a {
@@ -1389,7 +1388,6 @@ section.tmpBox{
         display: block;
         font-size: 40px;
         margin: 0 auto;
-        position: absolute;
         -webkit-font-smoothing: antialiased;
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
