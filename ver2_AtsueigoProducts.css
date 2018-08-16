@@ -1344,9 +1344,9 @@ section.tmpBox{
         transition-timing-function: ease-in-out;
 }
 
-#mainHeader h1 a:hover {
+/*#mainHeader h1 a:hover {
         opacity: 0.4;
-}
+}*/
 
 #mainHeader #logo{
         max-width: 960px;
