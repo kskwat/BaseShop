@@ -241,6 +241,18 @@ body.shop #shopHeader{
   background-color: #000656;
 }
 
+#mainVisual{
+    display: block;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+}
+
 
 
 
