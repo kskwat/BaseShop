@@ -241,7 +241,6 @@ body.shop #shopHeader{
   background-color: #000656;
 }
 
-style.background-image: url(https://rawgit.com/kskwat/BaseShop/master/atsu_products.png);
 
 #mainVisual{
     display: block;
@@ -253,6 +252,7 @@ style.background-image: url(https://rawgit.com/kskwat/BaseShop/master/atsu_produ
     background-position: center;
     -webkit-backface-visibility: hidden;
     height: 100%;
+    vertical-align: center;
 }
 
 
