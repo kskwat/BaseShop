@@ -1350,7 +1350,7 @@ section.tmpBox{
         max-width: 960px;
         /*max-height: 140px;*/
         margin: 0 auto;
-        padding-top: 85px;
+        position: absolute;
 }
 #mainHeader #logo img{
         max-width: 960px;
