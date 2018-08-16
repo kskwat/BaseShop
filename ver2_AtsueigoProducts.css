@@ -339,6 +339,7 @@ li {
         /* Fix for Internet Explorer 7 */
         *display: inline;
         zoom: 1;
+        position: relative;
 }
 
 .tempTop #main_navigation li {
@@ -1362,6 +1363,10 @@ section.tmpBox{
         font-size: 16px;
 }
 
+
+#mainHeader.container{
+        position: relative;
+}
 
 #youtube{
     text-align: center;
