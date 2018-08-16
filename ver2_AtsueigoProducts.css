@@ -37,6 +37,7 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
+    background-position: center center;
 }
 
 li {
@@ -165,25 +166,25 @@ abbr, acronym {
  common: shop繝壹�繧ｸ
  selector: body.shop
 ====================================================================*/
-/*body.shop {
+    body.shop {
     color: #000;
     font-family: franklin-gothic-comp-urw-1,franklin-gothic-comp-urw-2,"Arial Narrow",sans-serif;
-    /*font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
-/*    font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
+    font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
     font-size: 13px;
     line-height: 1.5;
     word-break: break-all;
     -webkit-text-size-adjust: none;
 }
 
-/*body.shop {
+    body.shop {
     margin: 0 auto 60px;
     padding: 0 10px;
     width: 960px;
 }
 
 /* 2parts */
-/*body.shop .part2{
+ body.shop .part2{
 
 }
 
@@ -196,8 +197,8 @@ body.shop section.part2{
     padding: 0 0 40px;
 }
 
-/* 4parts */
-/*body.shop .part4{
+   4parts
+    body.shop .part4{
     margin: 0 auto;
     overflow: hidden;
     width: 960px;
@@ -215,9 +216,9 @@ body.shop footer.part4{
     padding: 40px 0;
 }
 
-/* header
-/*body.shop #mainHeader{
-    /*border-top: 6px solid #000;
+  header
+  body.shop #mainHeader{
+  border-top: 6px solid #000;
 }
 body.shop #fixedHeader{
     right: 0;
@@ -226,7 +227,6 @@ body.shop #fixedHeader{
     top: 0;
 }
 body.shop #shopHeader{
-}*/
 
 
 /* footer */
