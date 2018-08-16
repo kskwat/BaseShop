@@ -241,6 +241,8 @@ body.shop #shopHeader{
   background-color: #000656;
 }
 
+style.background-image: url(https://rawgit.com/kskwat/BaseShop/master/atsu_products.png);
+
 #mainVisual{
     display: block;
     width: 100%;
