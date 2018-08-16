@@ -37,7 +37,7 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
-    background-position: center center;
+    text-align: center;
 }
 
 li {
@@ -227,6 +227,8 @@ body.shop #fixedHeader{
     top: 0;
 }
 body.shop #shopHeader{
+     /* 画像ファイルの指定 */
+  background-image: url(https://github.com/kskwat/BaseShop/blob/master/atsu_products.png);
   /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
   background-size: cover;
   /* 画像を常に天地左右の中央に配置 */
