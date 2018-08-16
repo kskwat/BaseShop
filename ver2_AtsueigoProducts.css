@@ -243,8 +243,7 @@ body.shop #shopHeader h1 a{
     padding: 10px 0;
 }
 body.shop #shopHeader h1 img{
-    max-width: 960px;
-    padding: 10px 0;
+    background-size: cover;
 }
 body.shop #shopHeader nav{
     border-bottom: 1px dotted #000;
