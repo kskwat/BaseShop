@@ -330,7 +330,7 @@ li {
 }
 
 .tempTop #main_navigation ul {
-
+        text-align: center;
 }
 
 .tempTop #main_navigation ul:first-child {
