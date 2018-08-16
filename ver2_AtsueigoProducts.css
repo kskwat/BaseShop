@@ -18,14 +18,14 @@ html, body {
     height: 100%;
 }
 
-/*a {
+a {
     color: #000;
     -webkit-font-smoothing: antialiased;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-}*/
+}
 
 a:link, a:visited {
     text-decoration: none;
@@ -37,7 +37,6 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
-    text-align: center;
 }
 
 li {
@@ -64,6 +63,11 @@ textarea {
 
 legend {
     display: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
 }
 
 object {
@@ -166,10 +170,10 @@ abbr, acronym {
  common: shop繝壹�繧ｸ
  selector: body.shop
 ====================================================================*/
-    body.shop {
+body.shop {
     color: #000;
     font-family: franklin-gothic-comp-urw-1,franklin-gothic-comp-urw-2,"Arial Narrow",sans-serif;
-    font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
+    /*font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
     font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
     font-size: 13px;
     line-height: 1.5;
@@ -177,14 +181,14 @@ abbr, acronym {
     -webkit-text-size-adjust: none;
 }
 
-    body.shop {
+body.shop .wrapper{
     margin: 0 auto 60px;
     padding: 0 10px;
     width: 960px;
 }
 
 /* 2parts */
- body.shop .part2{
+body.shop .part2{
 
 }
 
@@ -197,8 +201,8 @@ body.shop section.part2{
     padding: 0 0 40px;
 }
 
-   4parts
-    body.shop .part4{
+/* 4parts */
+body.shop .part4{
     margin: 0 auto;
     overflow: hidden;
     width: 960px;
@@ -216,9 +220,9 @@ body.shop footer.part4{
     padding: 40px 0;
 }
 
-  header
-  body.shop #mainHeader{
-  border-top: 6px solid #000;
+/* header */
+body.shop #mainHeader{
+    /*border-top: 6px solid #000;*/
 }
 body.shop #fixedHeader{
     right: 0;
@@ -227,36 +231,51 @@ body.shop #fixedHeader{
     top: 0;
 }
 body.shop #shopHeader{
-     /* 画像ファイルの指定 */
-  background-image: url(https://github.com/kskwat/BaseShop/blob/master/atsu_products.png);
-  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
-  background-size: cover;
-  /* 画像を常に天地左右の中央に配置 */
-  background-position: center center;
-  /* 画像をタイル状に繰り返し表示しない */
-  background-repeat: no-repeat;
-  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
-  background-attachment: fixed;
-  /* 背景画像が読み込まれる前に表示される背景のカラー */
-  background-color: #000656;
 }
-
-
-#mainVisual{
+body.shop #shopHeader h1{
     display: block;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    -webkit-backface-visibility: hidden;
-    height: 100%;
-    vertical-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 50px 0;
+    text-align: center;
+}
+body.shop #shopHeader h1 a{
+    padding: 10px 0;
+}
+body.shop #shopHeader h1 img{
+    max-width: 960px;
+    padding: 10px 0;
+}
+body.shop #shopHeader nav{
+    border-bottom: 1px dotted #000;
+    border-top: 1px dotted #000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Letter Gothic Std';
+    margin: 10px 0;
+}
+body.shop #shopHeader nav ul{
+    text-align: center;
+
+}
+body.shop #shopHeader nav ul li{
+    display: inline-block;
+             *display: inline;
+             *zoom: 1;
+    line-height: 20px;
+    margin: 0 20px;
+    height: 40px;
 }
 
+body.shop #shopHeader nav ul li:hover {
+    border-bottom: solid 2px #000000;
+    height: 38px;
+}
 
-
+body.shop #shopHeader nav ul li a{
+    display: block;
+    padding: 10px;
+}
 
 /* footer */
 body.shop #mainFooter{
@@ -321,22 +340,22 @@ body.shop #mainFooter .footerMenu li img{
   padding: 0 0 20px;
 }
 .pinnedBlog .pinnedBlog_title{
-	font-size: 12px;
+    font-size: 12px;
   text-align: center;
 }
 .pinnedBlog .pinnedBlog_title::before{
   content: "\e919";
-	font-family: 'baseicon';
-	padding: 0 5px 0 0;
+    font-family: 'baseicon';
+    padding: 0 5px 0 0;
 }
 .pinnedBlog .pinnedBlog_title a{
-	color: inherit;
-	display: inline;
+    color: inherit;
+    display: inline;
 }
 .publish_date.blog_pinned::before{
-	font-family: 'baseicon';
-	content: "\e929";
-	padding: 0 2px 0 0;
+    font-family: 'baseicon';
+    content: "\e929";
+    padding: 0 2px 0 0;
 }
 
 /**
@@ -385,7 +404,7 @@ body#shopTopPage .item:hover .itemImg{
     padding: 0;
 }
 body#shopTopPage .item:hover a {
-    color: #ea4e00;
+    color: #ed4242;
 }
 body#shopTopPage .item .itemImg a{
     display: block;
@@ -571,8 +590,8 @@ body#shopDetailPage #purchaseForm .purchaseElement select {
     white-space:nowrap;
 }
 body#shopDetailPage #purchaseForm .purchaseElement label {
-		color: #000;
-		font-size: 14px;
+        color: #000;
+        font-size: 14px;
     margin-right: 10px;
 }
 
@@ -731,7 +750,7 @@ body#shopDetailPage .social .fb{
     vertical-align: top;
 }
 body#shopDetailPage .social .socialWrapper{
-	float:left;
+    float:left;
 }
 body#shopDetailPage .social .report{
     float:right;
@@ -804,10 +823,10 @@ body.shop #mainFooter .footerMenu li .fb-like {
 .main #about .social {
     margin: 40px 0 0;
     text-align: center;
-		width: 100%;
+        width: 100%;
 }
 .main #about .social > ul{
-	display: inline-block;
+    display: inline-block;
 }
 .main #about .social ul li {
     float: left;
@@ -1096,11 +1115,11 @@ body.template #category-menu:hover .category-list ul li a:hover {
 /* .categoryTitle01
 -------------------------------------------------------------- */
 .categoryTitle01 {
-	margin: 38px 0 0 0;
-	font-size:20px;
-	line-height: 1.1;
-	font-weight: bold;
-	text-align: center;
+    margin: 38px 0 0 0;
+    font-size:20px;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* .childCategoryList01
