@@ -165,11 +165,11 @@ abbr, acronym {
  common: shop繝壹�繧ｸ
  selector: body.shop
 ====================================================================*/
-body.shop {
+/*body.shop {
     color: #000;
     font-family: franklin-gothic-comp-urw-1,franklin-gothic-comp-urw-2,"Arial Narrow",sans-serif;
     /*font-family: "Hiragino Kaku Gothic ProN","繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", sans-serif;*/
-    font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
+/*    font-family: '�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け', sans-serif;
     font-size: 13px;
     line-height: 1.5;
     word-break: break-all;
