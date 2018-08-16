@@ -277,6 +277,10 @@ body.shop #shopHeader nav ul li a{
     padding: 10px;
 }
 
+body.shop #youtube{
+    text-align: center;
+}
+
 /* footer */
 body.shop #mainFooter{
     font-size: 11px;
