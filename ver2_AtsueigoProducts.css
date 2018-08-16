@@ -324,7 +324,7 @@ li {
 
 .tempTop #main_navigation {
         height: 23px;
-        margin-bottom: 70px;
+        position: absolute;
 }
 
 .tempTop #main_navigation ul {
