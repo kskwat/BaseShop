@@ -494,6 +494,11 @@ body#shopDetailPage #mainContent{
 }
 
 /* item */
+body#Item{
+    text-align: center;
+}
+
+
 body#shopDetailPage #mainContent .item{
     float: left;
     position: relative;
