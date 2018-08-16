@@ -1369,7 +1369,8 @@ section.tmpBox{
 }
 
 
-/////////////////////////////////////////
+////////////////////////////////////////
+<!--{ItemPage}用のヘッダーCSS-->
 #mainHeader{
     width: 100%;
 }
@@ -1410,6 +1411,7 @@ section.tmpBox{
 
 #main_navigation ul {
         font-size: 16px;
+        position: relative;
 }
 
 
