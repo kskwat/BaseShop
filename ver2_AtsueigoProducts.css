@@ -244,7 +244,8 @@ body.shop #shopHeader h1 a{
 }
 body.shop #shopHeader h1 img{
     background-size: cover;
-    vertical-align: center;
+    max-width: 960px;
+    padding: 10px 0;
 }
 body.shop #shopHeader nav{
     border-bottom: 1px dotted #000;
