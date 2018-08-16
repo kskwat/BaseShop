@@ -347,7 +347,7 @@ li {
 }
 
 .tempTop #main_navigation li {
-        color: #222;
+        color: #ffffff;
         margin: 0 30px;
         font-family: Arial;
         font-size: 15px;
@@ -378,7 +378,7 @@ li {
 }
 
 .tempTop #main_navigation li:hover {
-        border-bottom: solid 2px #222222;
+        border-bottom: solid 2px #ffffff;
 }
 
 .tempTop #main_navigation .selected {
