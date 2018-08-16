@@ -176,14 +176,14 @@ body.shop {
     -webkit-text-size-adjust: none;
 }
 
-body.shop {
+/*body.shop {
     margin: 0 auto 60px;
     padding: 0 10px;
     width: 960px;
 }
 
 /* 2parts */
-body.shop .part2{
+/*body.shop .part2{
 
 }
 
@@ -197,7 +197,7 @@ body.shop section.part2{
 }
 
 /* 4parts */
-body.shop .part4{
+/*body.shop .part4{
     margin: 0 auto;
     overflow: hidden;
     width: 960px;
