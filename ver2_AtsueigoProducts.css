@@ -327,10 +327,14 @@ li {
 .tempTop #main_navigation {
         height: 23px;
         padding-bottom: 10px
+        position: relative;
+        position: relative;
 }
 
 .tempTop #main_navigation ul {
         text-align: center;
+        position: relative;
+
 }
 
 .tempTop #main_navigation ul:first-child {
