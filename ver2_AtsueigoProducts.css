@@ -326,7 +326,7 @@ li {
 
 .tempTop #main_navigation {
         height: 23px;
-        position: absolute;
+        padding-bottom: 10px
 }
 
 .tempTop #main_navigation ul {
