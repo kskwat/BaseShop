@@ -258,12 +258,15 @@ li {
 -------------------------------------------------------------- */
 .tempTop .container {
         width: 100%;
+        padding-top: 10px
+        position: absolute;
 }
 
 .tempDetail .container {
         width: 100%;
         min-height: 750px;
-        padding-top: 75px;
+        padding-top: 10px;
+        position: absolute;
 }
 
 .tempTop h2 {
