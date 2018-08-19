@@ -280,7 +280,10 @@ li {
 }
 
 .tempTop p {
-        margin: 10px 0;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #000656;
+    font-size: 60px
 }
 
 .tempTop a {
