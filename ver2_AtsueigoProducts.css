@@ -327,10 +327,10 @@ li {
 .tempTop #main_navigation {
         height: 23px;
         padding-bottom: 10px
-        position: absolute;
         left: 0;
         right: 0;
         padding-top: 10px;
+        position: absolute;
 }
 
 .tempTop #main_navigation ul {
