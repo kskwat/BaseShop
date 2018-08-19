@@ -1353,13 +1353,13 @@ section.tmpBox{
 }*/
 
 #mainHeader #logo{
-        max-width: 960px;
+        width: 100%;
         /*max-height: 140px;*/
         margin: 0 auto;
         /*padding-top: 85px;*/
 }
 #mainHeader #logo img{
-        max-width: 960px;
+        width: 100%;
 }
 
 #main_navigation ul {
