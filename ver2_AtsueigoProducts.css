@@ -327,13 +327,14 @@ li {
 .tempTop #main_navigation {
         height: 23px;
         padding-bottom: 10px
-        position: relative;
-        position: relative;
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
 }
 
 .tempTop #main_navigation ul {
         text-align: center;
-        position: relative;
 
 }
 
@@ -343,7 +344,6 @@ li {
         /* Fix for Internet Explorer 7 */
         *display: inline;
         zoom: 1;
-        position: relative;
 }
 
 .tempTop #main_navigation li {
@@ -1420,7 +1420,7 @@ section.tmpBox{
 
 
 #banner.container{
-        position: relative;
+        position: ;
 }
 /////////////////////////////////////////
 
