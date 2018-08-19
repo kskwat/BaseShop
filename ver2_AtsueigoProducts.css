@@ -259,7 +259,7 @@ li {
 .tempTop .container {
         width: 100%;
         padding-top: 10px;
-        position: relative;
+        position: absolute;
 }
 
 .tempDetail .container {
@@ -1403,13 +1403,13 @@ section.tmpBox{
         opacity: 0.4;
 }*/
 
-#mainHeader #banner{
+#mainHeader #banner1{
         max-width: 960px;
         /*max-height: 140px;*/
         margin: 0 auto;
         /*padding-top: 85px;*/
 }
-#mainHeader #banner img{
+#mainHeader #banner1 img{
         max-width: 960px;
 }
 
@@ -1420,7 +1420,7 @@ section.tmpBox{
 
 
 #banner.container{
-        position: ;
+        position: relative;
 }
 /////////////////////////////////////////
 
