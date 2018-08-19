@@ -266,7 +266,7 @@ li {
         width: 100%;
         min-height: 750px;
         padding-top: 10px;
-        position: absolute;
+        position: relative;
 }
 
 .tempTop h2 {
