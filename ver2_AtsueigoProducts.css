@@ -1426,7 +1426,8 @@ section.tmpBox{
 }
 
 .tempDetail .buttonHover1 {
-        margin: 20px 0 30px 270px;
+        margin: 0 auto;
+        position: relative;
         float: right;
         background-color: #999999;
         padding: 10px 5px;
