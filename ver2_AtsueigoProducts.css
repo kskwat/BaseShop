@@ -263,7 +263,7 @@ li {
 
 .tempDetail .container {
         width: 100%;
-        padding-top: 10px;
+        padding-top: 0px;
         position: relative;
         background: url("https://rawgit.com/kskwat/BaseShop/master/ItemPage_Image.png");    
 }
