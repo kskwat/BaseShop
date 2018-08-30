@@ -1429,6 +1429,23 @@ section.tmpBox{
     text-align: center;
 }
 
+#text1{
+    background-color: #00064B;
+}
+
+#purchase{
+    color: #ffffff;
+}
+
+#webonly{
+    color: #ffffff
+}
+
+#price{
+    color: #ffffff
+}
+
+
 #no1{
     font-family: Verdana;
     font-weight: bold;
