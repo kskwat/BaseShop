@@ -1401,6 +1401,10 @@ section.tmpBox{
     background-size: cover;
 }
 
+#select01{
+    display: none;
+}
+
 #mainHeader{
     width: 100%;
 }
