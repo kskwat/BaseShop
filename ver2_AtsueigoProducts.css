@@ -1425,10 +1425,16 @@ section.tmpBox{
         position: relative;
 }
 
-#HeaderButton{
-    position: relative;
-    width: 10%;
-    height: 10%;
+#sample{
+    width:200px;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#333;
+    border:1px solid #333;
 }
 
 #youtube{
