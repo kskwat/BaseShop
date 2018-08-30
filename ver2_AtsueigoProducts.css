@@ -1425,20 +1425,38 @@ section.tmpBox{
         position: relative;
 }
 
-#Button{
-    margin: 0 auto;
+.tempDetail .buttonHover1 {
+        margin: 20px 0 30px 270px;
+        float: right;
+        background-color: #999999;
+        padding: 10px 5px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 100%;
+        border: 0px;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-in-out;
+        -moz-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
 }
 
-#sample{
-    width:200px;
-    font-size:15px;
-    font-weight:bold;
-    text-decoration:none;
-    display:block;
-    text-align:center;
-    padding:8px 0 10px;
-    color:#797979;
-    border:3px solid #797979;
+.tempDetail .buttonHover1:hover{
+        opacity: 0.7;
+        filter: progid:dximagetransform.microsoft.alpha(opacity=80);
+}
+
+.tempDetail .buttonHover1--noItem {
+        display: block;
+        width: 410px;
+        height: 20px;
+        line-height: 20px;
 }
 
 #youtube{
