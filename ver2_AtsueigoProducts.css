@@ -1464,8 +1464,11 @@ section.tmpBox{
         font-size: 14px;
         font-weight: bold;
         cursor: pointer;
-        width: 100%;
+        width: 45%;
+        height: 80px
         border: 0px;
+        margin-bottom: 70px;
+        margin-right: 700px
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
         -o-transition-duration: 0.2s;
