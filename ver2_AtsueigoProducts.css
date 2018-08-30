@@ -1431,18 +1431,22 @@ section.tmpBox{
 
 #text1{
     background-color: #00064B;
+    margin: 0 auto;
 }
 
 #purchase{
     color: #ffffff;
+    font-size: 10px
 }
 
 #webonly{
-    color: #ffffff
+    color: #ffffff;
+    font-size: 20px;
 }
 
 #price{
     color: #ffffff
+    font-size: 8px;
 }
 
 
