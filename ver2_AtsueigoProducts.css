@@ -273,7 +273,8 @@ li {
         background-size: auto auto;
         background-repeat: no-repeat;
         background-position: center center;
-}
+        background-size: cover;
+    }
 
 .tempTop h2 {
         margin: 0 0 10px;
@@ -1484,7 +1485,7 @@ section.tmpBox{
 }
 
 #youtube{
-    padding-top: 10px
+    padding-top: 10px;
     text-align: center;
 }
 
