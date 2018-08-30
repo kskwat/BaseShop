@@ -1377,6 +1377,20 @@ section.tmpBox{
 
 ////////////////////////////////////////
 <!--{ItemPage}用のヘッダーCSS-->
+#main-visual {
+    margin-top: 70px;
+    height: 670px;
+    background: #eee;
+    position: relative;
+    background: url("https://rawgit.com/kskwat/BaseShop/master/ItemPage_Image.png");
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 #mainHeader{
     width: 100%;
 }
@@ -1426,7 +1440,7 @@ section.tmpBox{
 }
 
 .tempDetail .buttonHover1 {
-        margin-top: 100px;
+        margin: 0 auto;
         position: relative;
         float: right;
         background-color: #999999;
