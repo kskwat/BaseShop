@@ -1398,7 +1398,7 @@ section.tmpBox{
         background-size: auto auto;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #select01{
