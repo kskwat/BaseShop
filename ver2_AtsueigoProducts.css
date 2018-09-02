@@ -1537,6 +1537,7 @@ section.tmpBox{
     position: relative;
     width: 40%;
     margin-left:  450px;
+    text-align: right;
 }
 
 
@@ -1547,6 +1548,14 @@ section.tmpBox{
     font-size: 14px;
     position: relative;
     text-align: left;
+}
+
+#band{
+    margin-bottom: 100px;
+}
+
+#line{
+    margin-bottom: 100px;
 }
 
 
