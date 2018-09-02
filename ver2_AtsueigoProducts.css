@@ -1456,18 +1456,16 @@ section.tmpBox{
 .tempDetail .buttonHover1 {
         margin: 0 auto;
         position: relative;
-        background-color: #999999;
+        background-color: #EA4E00;
         padding: 10px 5px;
         text-align: center;
         color: white;
         font-size: 14px;
         font-weight: bold;
         cursor: pointer;
-        width: 45%;
+        width: 100%;
         height: 80px;
         border: 0px;
-        margin-bottom: 70px;
-        margin-right: 700px;
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
         -o-transition-duration: 0.2s;
