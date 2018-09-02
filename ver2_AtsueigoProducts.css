@@ -1497,12 +1497,20 @@ section.tmpBox{
     text-align: center;
 }
 
-#no1{
+#number{
     font-family: Verdana;
     font-weight: bold;
     color: #000656;
-    font-size: 60px
+    font-size: 60px;
 }
+
+#side_text{
+    font-family: Verdana;
+    font-weight: bold;
+    color: #000656;
+    font-size: 35px;
+}
+
 
 /////////////////////////////////////////
 
