@@ -1490,6 +1490,10 @@ section.tmpBox{
         line-height: 20px;
 }
 
+div#amountSelectWrap1{
+    display: none;
+}
+
 #youtube{
     padding-top: 10px;
     text-align: center;
