@@ -1492,7 +1492,7 @@ section.tmpBox{
     display: none;
 }
 
-div#parent{
+#parent{
     width: 900px;
     height: 100px;
     position: relative;
@@ -1511,7 +1511,7 @@ div#parent{
 }
 
 
-p#subheading{
+#subheading{
     padding: 5px 0;
     text-align: center;
     color: #000656;
@@ -1520,7 +1520,7 @@ p#subheading{
 }
 
 
-div#img {
+#img {
     width: 55%;
 }
 
