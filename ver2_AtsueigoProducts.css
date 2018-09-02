@@ -1494,7 +1494,7 @@ section.tmpBox{
 
 div#parent{
     width: 900px;
-    height: 300px;
+    height: 100px;
     position: relative;
 }
 
@@ -1511,13 +1511,19 @@ div#parent{
 }
 
 
-#title{
+#subheading{
     padding: 5px 0;
     text-align: center;
     color: #000656;
     font-size: 28px;
     width: 900px;
 }
+
+
+div#img {
+    width: 55%;
+}
+
 
 #text1{
     font-family: Verdana;
