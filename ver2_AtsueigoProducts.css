@@ -1550,11 +1550,11 @@ section.tmpBox{
     text-align: left;
 }
 
-#band{
+ul#band{
     margin-bottom: 100px;
 }
 
-#line{
+hr#line{
     margin-bottom: 100px;
 }
 
