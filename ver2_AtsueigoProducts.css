@@ -1492,23 +1492,32 @@ section.tmpBox{
     display: none;
 }
 
-#youtube{
-    padding-top: 10px;
-    text-align: center;
+div#parent{
+    width: 900px;
+    height: 300px;
+    position: relative;
+}
+
+.box {
+    height: 30px;
 }
 
 #number{
     font-family: Verdana;
     font-weight: bold;
     color: #000656;
-    font-size: 60px;
+    font-size: 150px;
+    position: absolute;
 }
 
+
+
 #title{
-    font-family: Verdana;
-    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
     color: #000656;
-    font-size: 35px;
+    font-size: 28px;
+    width: 900px;
 }
 
 #text1{
