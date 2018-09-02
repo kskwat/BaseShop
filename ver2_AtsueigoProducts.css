@@ -292,7 +292,7 @@ li {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #000656;
-    font-size: 60px
+    font-size: 28px
 }
 
 .tempTop a {
@@ -1498,10 +1498,6 @@ section.tmpBox{
     position: relative;
 }
 
-.box {
-    height: 30px;
-}
-
 #number{
     font-family: Verdana;
     font-weight: bold;
@@ -1519,9 +1515,28 @@ section.tmpBox{
     width: 900px;
 }
 
+#box {
+    height: 30px;
+}
+
+#parent2 {
+    margin-bottom: 100px;
+    margin-top: -2px;
+    position: absolute;
+    width: 900px;
+    height: 400px;
+}
 
 #img {
-    width: 55%;
+    width: 50%;
+    position: absolute;
+}
+
+#discribe {
+    display:inline-block;
+    position: relative;
+    width: 40%;
+    margin-left:  450px;
 }
 
 
@@ -1529,7 +1544,9 @@ section.tmpBox{
     font-family: Verdana;
     font-weight: bold;
     color: #000656;
-    font-size: 10px; 
+    font-size: 14px;
+    position: relative;
+    text-align: left;
 }
 
 
