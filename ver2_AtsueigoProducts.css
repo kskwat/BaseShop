@@ -1508,10 +1508,11 @@ section.tmpBox{
 
 
 #subheading{
-    padding: 5px 0;
+    padding: 43px 0;
+    padding-left: 50px;
     text-align: center;
     color: #000656;
-    font-size: 28px;
+    font-size: 30px;
     width: 900px;
 }
 
@@ -1551,7 +1552,7 @@ section.tmpBox{
 }
 
 ul#band{
-    margin-bottom: 400px;
+    margin-bottom: 450px;
 }
 
 hr#line{
