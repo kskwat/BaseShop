@@ -1414,7 +1414,8 @@ section.tmpBox{
 }
 
 #mainHeader h1 {
-    /*height: 60px;*/
+    height: 495px;
+    margin-bottom: -50px;
 }
 
 #mainHeader h1 a {
