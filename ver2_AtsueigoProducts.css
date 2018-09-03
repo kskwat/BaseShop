@@ -1457,6 +1457,11 @@ section.tmpBox{
         position: relative;
 }
 
+#submit_form {
+    width: 59%;
+    margin-left: 47px;
+}
+
 .tempDetail .buttonHover1 {
         margin: 0 auto;
         position: relative;
@@ -1858,7 +1863,7 @@ hr#line{
 
 /* 繝医ャ繝励�繝ｼ繧ｸ */
 .tempTop{
-    width: 1141px;
+    min-width: 1141px;
 }
 
 /**
