@@ -1390,7 +1390,7 @@ div#scroll_button_btm{
     background: #EA4E00;
     color:#fff;
     padding:20px;
-    height: 40px;
+    width: 57%;
     margin-top: 128px;
     margin-left: 50px;
 }
