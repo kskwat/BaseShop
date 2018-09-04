@@ -1384,7 +1384,7 @@ section.tmpBox{
         font-size: 16px;
 }
 
-#scroll_button_btm a{
+div#scroll_button_btm{
     position: relative;
     display: block;
     right:50px;
