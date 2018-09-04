@@ -2011,7 +2011,18 @@ hr#line{
  for sp
 ====================================================================*/
 @media screen and (max-width: 480px){
-
+    .item_lists li {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin: 10px;
+}
         /**
         * page: 繝壹�繧ｸ蜷�
         * about: 髢｢騾｣諠��ｱ
