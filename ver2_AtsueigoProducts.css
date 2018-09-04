@@ -1348,7 +1348,7 @@ section.tmpBox{
 }
 
 #mainHeader h1 {
-        height: 495px;
+        height: 100%;
 }
 
 #mainHeader h1 a {
@@ -1386,7 +1386,6 @@ section.tmpBox{
 }
 
 div#scroll_button_btm{
-    position: absolute;
     display: block;
     color:#fff;
     padding:20px;
