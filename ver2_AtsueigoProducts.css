@@ -1113,13 +1113,13 @@ li {
         padding: 10px 5px;
         text-align: center;
         color: white;
-        font-size: 14px;
+        font-size: 17px;
         font-weight: bold;
         cursor: pointer;
         width: 100%;
         border: 0px;
         border-radius: 0;
-
+        letter-spacing: 8px;
         -webkit-appearance: none;
         -webkit-transition-duration: 0.2s;
         -moz-transition-duration: 0.2s;
@@ -1465,6 +1465,12 @@ section.tmpBox{
     margin-left: 47px;
     margin-top: 130px;
 }
+
+#weblimited{
+    font-size: 25px;
+}
+
+
 
 .tempDetail .buttonHover1 {
         margin: 0 auto;
