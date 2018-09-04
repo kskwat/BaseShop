@@ -1388,7 +1388,6 @@ section.tmpBox{
 div#scroll_button_btm{
     position: absolute;
     display: block;
-    background: #EA4E00;
     color:#fff;
     padding:20px;
     width: 57%;
@@ -1497,7 +1496,7 @@ div#scroll_button_btm{
         width: 100%;
         height: 80px;
         border: 0px;
-        border-radius: 30px 30px 30px 30px;
+        border-radius: 10px 10px 10px 10px;
         box-shadow: 4px 4px;
         
         -webkit-appearance: none;
