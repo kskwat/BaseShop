@@ -1751,12 +1751,13 @@ hr#line{
 .inquirySection h1 {
         font-size: 32px;
         font-weight: bold;
-        font-family: 'Futura';
+        font-family: 'Helvetica';
         line-height: 26px;
         letter-spacing: 3px;
         color: #1a1a1a;
         text-transform: capitalize;
         text-align: left;
+        margin-bottom: 10px;
 }
 .inquirySection p  {
         font-size: 13px;
