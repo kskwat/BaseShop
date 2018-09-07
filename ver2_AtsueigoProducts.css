@@ -1345,7 +1345,9 @@ section.tmpBox{
 #mainHeader{
     width: 100%;
     height: 747px;
-    min-width: 1045px
+    min-width: 1045px;
+    overflow: hidden;
+
 }
 
 #mainHeader h1 {
