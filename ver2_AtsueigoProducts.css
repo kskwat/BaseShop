@@ -1389,6 +1389,15 @@ div#scroll_button_btm{
     width: 64%;
     margin: 0 auto;
     text-align: center;
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 
 #mainHeader.container{
