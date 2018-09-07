@@ -146,6 +146,7 @@ table {
         margin: 0 auto;
         margin-top: 140px;
         padding: 73px;
+        position: relative;
         overflow: hidden;
 
 }
@@ -1399,7 +1400,7 @@ div#scroll_button_btm{
     position: relative;
     float: left;
     left: 50%;
-    margin-top: 5%
+    margin-top: 60px;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
