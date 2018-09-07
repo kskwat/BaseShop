@@ -1381,7 +1381,7 @@ section.tmpBox{
 #mainHeader #logo{
         width: 100%;
         margin: 0 auto;
-        height:639.19px;
+        height: auto;
 }
 #mainHeader #logo img{
         width: 100%;
